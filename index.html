@@ -16,39 +16,35 @@
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Random Password Generator</a>
     </nav>
-
     <article class="container">
-
         <section class="row">
-
             <section class="col-lg-8 col-sm-12 mx-auto">
-
                 <section class="content">
                     <h4>Random Password Generator</h4>
                     <br />
                     <input type="text" id="display">
                     <br />
-                    <input type="range" min="8" max="128" name="slider" id="slider">
+                    <input type="range" min="7" max="128" name="slider" id="slider">
                     <br />
                     <button id="generate" onclick="generate()">Generate</button>
                     <button onclick="copyPassword()">Copy to Clipboard</button>
-                    <div class="setting">
+                    <section class="setting">
                         <label>Include uppercase letters</label> 
                         <input type="checkbox" id="uppercase" checked />
-                    </div>
-                    <div class="setting">
+                    </section>
+                    <section class="setting">
                         <label>Include lowercase letters</label> 
                         <input type="checkbox" id="lowercase" checked />
-                    </div>
-                    <div class="setting">
+                    </section>
+                    <section class="setting">
                         <label>Include numbers</label> 
                         <input type="checkbox" id="numbers" checked />
-                    </div>
-                    <div class="setting">
+                    </section>
+                    <section class="setting">
                         <label>Include symbols</label> 
                         <input type="checkbox" id="symbols" checked />
-                    </div>
-                </div>
+                    </section>
+                <section>
          
                     <section id="length"></section>
                 
